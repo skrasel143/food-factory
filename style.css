@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: auto;
 }
 .top-section{
     display: flex;
@@ -28,7 +29,7 @@ body{
     padding: 15px 30px;
     border-radius: 10px;
 }
-a:hover{
+.half-width a:hover{
     background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
     padding: 16px 35px;
 }
@@ -81,7 +82,7 @@ a:hover{
     padding: 15px;
     margin-left: 20px;
     border-radius: 30px;
-    height: auto;
+    box-sizing: border-box;
 }
 .card h2{
     padding-left: 15px;
@@ -100,3 +101,25 @@ a:hover{
 .item{
     padding-left: 200px;
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+  }
+  .social-icon a:hover{
+      color: #6a68ec;
+  }
+  .social-icon{
+    position: fixed;
+    top: 60%;
+    right: 0%;
+  }
+  .main-footer{
+      text-align: center;
+      color: #fff;
+      background: #111;
+      padding: 50px;
+  }
